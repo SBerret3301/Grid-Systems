@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character set and viewport for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Set the title of the document -->
+    <title>Bootstrap Layout Examples</title>
+</head>
+<body>
+    <!-- Three Equal Width Columns -->
+    <div class="container-fluid mt-3">
+        <h2 class="text-center text-primary my-5">Three Equal Width Columns</h2>
+        <div class="row">
+            <div class="col p-3 bg-primary text-white">.col</div>
+            <div class="col p-3 bg-dark text-white">.col</div>
+            <div class="col p-3 bg-primary text-white">.col</div>
+        </div>
+    </div>
+
+    <!-- Responsive Columns -->
+    <div class="container-fluid mt-3">
+        <h1 class="text-center text-secondary my-5">Responsive Columns</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <p>Columns stack automatically when the screen width is less than 576px.</p>
+        <div class="row">
+            <div class="col-sm-3 p-3 bg-primary text-white">.col</div>
+            <div class="col-sm-3 p-3 bg-dark text-white">.col</div>
+            <div class="col-sm-3 p-3 bg-primary text-white">.col</div>
+            <div class="col-sm-3 p-3 bg-dark text-white">.col</div>
+        </div>
+    </div>
+
+    <!-- Unequal Responsive Columns -->
+    <div class="container-fluid mt-3">
+        <h1 class="text-center text-danger my-5">Unequal Responsive Columns</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <p>Columns stack automatically when the screen width is less than 576px.</p>
+        <div class="row">
+            <div class="col-sm-4 p-3 bg-primary text-white">.col</div>
+            <div class="col-sm-8 p-3 bg-dark text-white">.col</div>
+        </div>
+    </div>
+
+    <!-- Equal Width Columns and Rows -->
+    <div class="container-fluid mt-3">
+        <h1 class="text-center text-warning my-5">Equal Width Columns and Rows</h1>
+        <div class="row">
+            <div class="col-sm-6 p-3 bg-primary text-black">First Column</div>
+            <div class="col-sm-6 p-3 bg-info text-black">Second Column</div>
+        </div>
+        <h1 class="text-center text-info my-5">Equal Height Rows</h1>
+        <div class="col">
+            <div class="row p-3 bg-warning text-white">First Row</div>
+            <div class="row p-3 bg-secondary text-white">Second Row</div>
+            <div class="row p-3 bg-success text-white">Third Row</div>
+        </div>
+    </div>
+</body>
+</html>
